@@ -26,3 +26,19 @@ Este proyecto utiliza técnicas de aprendizaje automático para predecir si un v
 ```bash
 git clone https://github.com/RimElabrouki/Predictive-Maintenance-for-Vehicles-Using-Machine-Learning.git
 cd Predictive-Maintenance-for-Vehicles-Using-Machine-Learning
+```
+## Cómo usar
+
+1. (Opcional) Crea y activa un entorno virtual:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+````
+### Instala las dependencias:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+Abre y ejecuta el notebook Predictive_Maintenance_Vehicles.ipynb en Jupyter Notebook para entrenar el modelo y hacer predicciones.
